@@ -54,7 +54,30 @@ suggest to learn very basic commands for docker, like start, stop, save, and del
 
 ### Tutorials for InfluxDB
 
-(InfluxDB Official Tutorial in En)[https://docs.influxdata.com/influxdb/v2/get-started/]
+InfluxDB OSS is InfluxDB's open source edition. 
+
+#### The first step: learn InfluxDB and its cmdline 
+
+- (setup InfluxDB as docker)[https://docs.influxdata.com/influxdb/v2/install/?t=Docker]
+- (InfluxDB Official Tutorial in En)[https://docs.influxdata.com/influxdb/v2/get-started/]
+
+#### The second Step: Using dashboard with InfluxDB
+
+`grafana` is my recomended dashboard for time-series database, which shows time-based controls, e.g. curves. 
+
+`telegraph` is a tool to collect a linux's performance status. If your influxdb has data already, you can skip telegraph, which works as a data source. 
+
+(use grafana to visit influxdb to show telegraph data)[https://www.influxdata.com/blog/how-to-setup-influxdb-telegraf-and-grafana-on-docker-part-2/]
+
+
+#### The third step: learn the InfluxData platform, a solution with 4 products
+
+(InfluxData platform)[https://docs.influxdata.com/platform/getting-started/]
+
+The platform consists of 4 products: `telegraph`(as data source), `grafana`(as dashboard), `influxdb`(time-series db), and `kapacitor`(a data processing engine for influxdb)  
+
+(InfluxData platform)[https://docs.influxdata.com/platform/getting-started/]
+
 
 ### Tutorials for MySQL 
 
