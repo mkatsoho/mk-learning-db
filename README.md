@@ -56,11 +56,15 @@ suggest to learn very basic commands for docker, like start, stop, save, and del
 
 (InfluxDB Official Tutorial in En)[https://docs.influxdata.com/influxdb/v2/get-started/]
 
-### Tutorials for MySQL
+### Tutorials for MySQL 
+
+Note: mariadb is a flavor of Mysql. Suggest to use mariadb instead of Mysql.
+phpmyadmin is a web application. You can use a web page to run sql statements, handle tables & databases of mariadb/mysql. 
 
 (w3school in En)[https://www.w3schools.com/MySQL]
 
-(setup mysql using a docker, a kind of light-weight virtual machine, in Linux)[https://hub.docker.com/_/mysql]
+(setup mariadb in docker of a linux)[https://hub.docker.com/_/mariadb]
+(setup phpmyadmin in docker of a linux)[https://hub.docker.com/_/phpmyadmin]
 
 ### Tutorials for HBase
 
