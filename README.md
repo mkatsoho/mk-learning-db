@@ -33,13 +33,36 @@ So in brief, the uniqu key is the timestamp column plus indexed columns. The dat
 - row-based database: MySQL (very popular e-bussiness)
 - column-based database: HBase (popular for all kinds of areas)
 
-## Tutorials for InfluxDB
+## Tutorials
 
+For all tutorials below, strongly suggest you to use docker (a kind of light-weight virtual machine) upon a Linux. Desktop means the linux has a windows-like desktop. 
 
-## Tutorials for MySQL
+- recommended linux: (Ubutun 22.04 LTS Destop)[https://ubuntu.com/download/alternative-downloads]
+- docker: (installation guide for Ubuntu)[https://docs.docker.com/engine/install/ubuntu/]
 
+### Tutorials for Linux
 
-## Tutorials for HBase
+Suggest to skip this for database learners. 
+
+(Not sure if this is good enough)[https://www.w3resource.com/linux-system-administration/installation.php]
+
+### Tutorials for Docker
+
+suggest to learn very basic commands for docker, like start, stop, save, and delete. 
+
+(tutorialspoint in En)[https://www.tutorialspoint.com/docker/index.htm)
+
+### Tutorials for InfluxDB
+
+(InfluxDB Official Tutorial in En)[https://docs.influxdata.com/influxdb/v2/get-started/]
+
+### Tutorials for MySQL
+
+(w3school in En)[https://www.w3schools.com/MySQL]
+
+(setup mysql using a docker, a kind of light-weight virtual machine, in Linux)[https://hub.docker.com/_/mysql]
+
+### Tutorials for HBase
 
 TBD
 
