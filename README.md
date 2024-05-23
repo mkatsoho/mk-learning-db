@@ -37,20 +37,20 @@ So in brief, the uniqu key is the timestamp column plus indexed columns. The dat
 
 For all tutorials below, strongly suggest you to use docker (a kind of light-weight virtual machine) upon a Linux. Desktop means the linux has a windows-like desktop. 
 
-- recommended linux: (Ubutun 22.04 LTS Destop)[https://ubuntu.com/download/alternative-downloads]
-- docker: (installation guide for Ubuntu)[https://docs.docker.com/engine/install/ubuntu/]
+- recommended linux: [Ubutun 22.04 LTS Destop](https://ubuntu.com/download/alternative-downloads)
+- docker: [installation guide for Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
 ### Tutorials for Linux
 
 Suggest to skip this for database learners. 
 
-(Not sure if this is good enough)[https://www.w3resource.com/linux-system-administration/installation.php]
+[Not sure if this is good enough](https://www.w3resource.com/linux-system-administration/installation.php)
 
 ### Tutorials for Docker
 
 suggest to learn very basic commands for docker, like start, stop, save, and delete. 
 
-(tutorialspoint in En)[https://www.tutorialspoint.com/docker/index.htm)
+[tutorialspoint in En](https://www.tutorialspoint.com/docker/index.htm)
 
 ### Tutorials for InfluxDB
 
@@ -58,8 +58,8 @@ InfluxDB OSS is InfluxDB's open source edition.
 
 #### The first step: learn InfluxDB and its cmdline 
 
-- (setup InfluxDB as docker)[https://docs.influxdata.com/influxdb/v2/install/?t=Docker]
-- (InfluxDB Official Tutorial in En)[https://docs.influxdata.com/influxdb/v2/get-started/]
+- [setup InfluxDB as docker](https://docs.influxdata.com/influxdb/v2/install/?t=Docker)
+- [InfluxDB Official Tutorial in En](https://docs.influxdata.com/influxdb/v2/get-started/)
 
 #### The second Step: Using dashboard with InfluxDB
 
@@ -67,16 +67,16 @@ InfluxDB OSS is InfluxDB's open source edition.
 
 `telegraph` is a tool to collect a linux's performance status. If your influxdb has data already, you can skip telegraph, which works as a data source. 
 
-(use grafana to visit influxdb to show telegraph data)[https://www.influxdata.com/blog/how-to-setup-influxdb-telegraf-and-grafana-on-docker-part-2/]
+[use grafana to visit influxdb to show telegraph data](https://www.influxdata.com/blog/how-to-setup-influxdb-telegraf-and-grafana-on-docker-part-2/)
 
 
 #### The third step: learn the InfluxData platform, a solution with 4 products
 
-(InfluxData platform)[https://docs.influxdata.com/platform/getting-started/]
+(InfluxData platform)[https://docs.influxdata.com/platform/getting-started/)
 
 The platform consists of 4 products: `telegraph`(as data source), `grafana`(as dashboard), `influxdb`(time-series db), and `kapacitor`(a data processing engine for influxdb)  
 
-(InfluxData platform)[https://docs.influxdata.com/platform/getting-started/]
+[InfluxData platform](https://docs.influxdata.com/platform/getting-started/]
 
 
 ### Tutorials for MySQL 
@@ -84,10 +84,10 @@ The platform consists of 4 products: `telegraph`(as data source), `grafana`(as d
 Note: mariadb is a flavor of Mysql. Suggest to use mariadb instead of Mysql.
 phpmyadmin is a web application. You can use a web page to run sql statements, handle tables & databases of mariadb/mysql. 
 
-(w3school in En)[https://www.w3schools.com/MySQL]
+- [setup mariadb in docker of a linux](https://hub.docker.com/_/mariadb)
+- [setup phpmyadmin in docker of a linux](https://hub.docker.com/_/phpmyadmin)
+- [w3school in En](https://www.w3schools.com/MySQL)
 
-(setup mariadb in docker of a linux)[https://hub.docker.com/_/mariadb]
-(setup phpmyadmin in docker of a linux)[https://hub.docker.com/_/phpmyadmin]
 
 ### Tutorials for HBase
 
